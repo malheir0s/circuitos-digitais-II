@@ -1,0 +1,43 @@
+vsim -gui work.countermod7enable_tb
+# vsim -gui work.countermod7enable_tb 
+# Start time: 16:33:30 on Sep 30,2022
+# Loading sv_std.std
+# Loading work.countermod7enable_tb
+# Loading work.countermod7enable
+add wave -position insertpoint  \
+sim:/countermod7enable_tb/clock \
+sim:/countermod7enable_tb/enable \
+sim:/countermod7enable_tb/i \
+sim:/countermod7enable_tb/reset \
+sim:/countermod7enable_tb/value
+run -all
+# ** Note: $finish    : E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7enable_tb.sv(41)
+#    Time: 26 ns  Iteration: 0  Instance: /countermod7enable_tb
+# 1
+# Break in Module countermod7enable_tb at E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7enable_tb.sv line 41
+# Error opening E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7enable_tb.sv
+# Path name 'E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7enable_tb.sv' doesn't exist.
+vsim -gui work.xycounter_tb
+# End time: 16:34:41 on Sep 30,2022, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 1
+# vsim -gui work.xycounter_tb 
+# Start time: 16:34:41 on Sep 30,2022
+# Loading sv_std.std
+# Loading work.xycounter_tb
+# Loading work.xycounter
+add wave -position insertpoint  \
+sim:/xycounter_tb/clock \
+sim:/xycounter_tb/enable \
+sim:/xycounter_tb/HEIGHT \
+sim:/xycounter_tb/WIDTH \
+sim:/xycounter_tb/x \
+sim:/xycounter_tb/y
+run -all
+# ** Note: $finish    : E:/UFRB/2022.1/CD2/labs/lab4/sim/xycounter_tb.sv(30)
+#    Time: 50 ns  Iteration: 0  Instance: /xycounter_tb
+# 1
+# Break in Module xycounter_tb at E:/UFRB/2022.1/CD2/labs/lab4/sim/xycounter_tb.sv line 30
+# Error opening E:/UFRB/2022.1/CD2/labs/lab4/sim/xycounter_tb.sv
+# Path name 'E:/UFRB/2022.1/CD2/labs/lab4/sim/xycounter_tb.sv' doesn't exist.
+# End time: 16:36:18 on Sep 30,2022, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 1

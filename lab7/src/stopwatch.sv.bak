@@ -1,0 +1,70 @@
+`timescale 1ns / 1ps
+`default_nettype none
+
+module stopwatch
+   (
+      ////////////////////	Clock Input	 	/////////////////////////////////////// 
+      input    wire        CLOCK_50,     //	50 MHz
+      ////////////////////	 Push Button   ///////////////////////////////////////
+      input   wire [3:0]   KEY,
+      input   wire [17:0]  SW,          //  Pushbutton[3:0]
+    ////////////////////	7-SEG Display  ///////////////////////////////////////
+      output   logic [6:0]  HEX0,         // Display de 7-segmentos (HEX0)
+      output   logic [6:0]  HEX1,         // Display de 7-segmentos (HEX1)
+      output   logic [6:0]  HEX2,         // Display de 7-segmentos (HEX2)
+      output   logic [6:0]  HEX3,          // Display de 7-segmentos (HEX3)
+		output   logic [6:0]  HEX4,          // Display de 7-segmentos (HEX4)
+		output   logic [6:0]  HEX5,          // Display de 7-segmentos (HEX5)
+		output   logic [6:0]  HEX6,          // Display de 7-segmentos (HEX6)
+		output   logic [6:0]  HEX7          // Display de 7-segmentos (HEX7)
+   );
+   //	Parâmetros internos
+   localparam NDIG = 8;
+
+   // Definindo as chaves
+   logic key0;
+   assign key0  = KEY[0];
+
+   logic key1;
+   assign key1  = KEY[1];
+
+   logic key2;
+   assign key2  = KEY[2];
+
+
+	//	Sinais internos
+   logic [6:0]  segments [0:NDIG-1];
+   logic [(NDIG*4)-1:0] value;
+
+   // Sinais Limpos
+   wire clean0;
+   wire clean1;
+   wire clean2;
+
+
+   logic countup;
+   logic paused;
+
+
+   // Escolha do N:
+   // N =  10 ^ -3 * 50 * 10 ^6
+   // 2 ^ N = 500 * 10^3 ,  N = 19 
+   //	Instanciação de módulos
+   debouncer #(19) d(key0, CLOCK_50, clean0);
+   debouncer #(19) d(key1, CLOCK_50, clean1);
+   debouncer #(19) d(key2, CLOCK_50, clean2);
+   fsm f ( .clk(CLOCK_50), .key0(clean0), .key1(clean1), .key2(clean2), .countup(countup), .paused(paused) );
+   updowncounter count( .clock(CLOCK_50), .countup(countup), .paused(paused), .value(value) );
+	displayNdigit dut ( .clock(CLOCK_50), .value(value), .segments(segments) );
+
+   //	Atribuições de saída
+   assign HEX0 = segments[0];
+   assign HEX1 = segments[1];
+   assign HEX2 = segments[2];
+   assign HEX3 = segments[3];	
+	assign HEX4 = segments[4];
+	assign HEX5 = segments[5];
+	assign HEX6 = segments[6];
+	assign HEX7 = segments[7];
+
+endmodule

@@ -1,0 +1,32 @@
+`default_nettype none
+
+module alu #(
+   parameter N=32
+)(
+   input  wire [N-1:0] A, B,
+   output wire [N-1:0] R,
+   input  wire [4:0]   ALUfn,
+   output wire         FlagN, FlagC, FlagV, FlagZ
+);
+
+   wire subtract, bool1, bool0, shft, math;
+
+   // Separando ALUfn em bits nomeados
+   assign {subtract, bool1, bool0, shft, math} = ALUfn[4:0];
+
+   // Resultados dos três componentes da ALU
+   wire [N-1:0] addsubResult, shiftResult, logicalResult;
+
+   addsub   #(N) AS (A, B,      ,         ,       ,      ,      );
+   shifter  #(N) S (B, A[$clog2(N)-1:0],       ,       ,      );
+   logical  #(N) L (A, B, {         },             );
+
+   // Multiplexador de 4 entradas para selecionar a saída
+   assign R =  (~shft & math)  ?              :
+               (shft & ~math)  ?              :
+               (~shft & ~math) ?              : 0;
+
+   // Utilize o operador de redução aqui
+   assign FlagZ =    ;
+
+ endmodule

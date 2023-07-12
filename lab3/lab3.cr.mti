@@ -1,0 +1,85 @@
+E:/UFRB/2022.1/CD2/labs/lab3/src/adder.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/src/comparator.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/comparator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/src/adder4bit.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/adder4bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder4bit
+
+Top level modules:
+	adder4bit
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/src/fulladder.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/fulladder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/src/logical.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/logical.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logical
+
+Top level modules:
+	logical
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/alu_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/alu_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_tb
+
+Top level modules:
+	alu_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/src/adder8bit.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/adder8bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder8bit
+
+Top level modules:
+	adder8bit
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/alu_32bit_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/alu_32bit_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_32bit_tb
+
+Top level modules:
+	alu_32bit_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/alu_8bit_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/alu_8bit_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu_8bit_tb
+
+Top level modules:
+	alu_8bit_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/addsub.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/addsub.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/src/shifter.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/src/shifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/addsub_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab3/sim/tb/addsub_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addsub_tb
+
+Top level modules:
+	addsub_tb
+
+} {} {}}

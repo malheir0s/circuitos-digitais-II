@@ -1,0 +1,57 @@
+E:/UFRB/2022.1/CD2/labs/lab4/src/countermod7.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/src/countermod7.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module countermod7
+
+Top level modules:
+	countermod7
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/sim/xycounter_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/sim/xycounter_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xycounter_tb
+
+Top level modules:
+	xycounter_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/src/countermod4.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/src/countermod4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module countermod4
+
+Top level modules:
+	countermod4
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7enable_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7enable_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module countermod7enable_tb
+
+Top level modules:
+	countermod7enable_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod7_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module countermod7_tb
+
+Top level modules:
+	countermod7_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/src/xycounter.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/src/xycounter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xycounter
+
+Top level modules:
+	xycounter
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod4_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/sim/countermod4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module countermod4_tb
+
+Top level modules:
+	countermod4_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab4/src/countermod7enable.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab4/src/countermod7enable.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module countermod7enable
+
+Top level modules:
+	countermod7enable
+
+} {} {}}

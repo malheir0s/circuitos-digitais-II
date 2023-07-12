@@ -1,0 +1,97 @@
+C:/Users/Malheiros/Documents/cd2_labs/lab8/src/adder4bit.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/adder4bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder4bit
+
+Top level modules:
+	adder4bit
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/fulladder.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/fulladder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/logical.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/logical.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logical
+
+Top level modules:
+	logical
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/adder8bit.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/adder8bit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder8bit
+
+Top level modules:
+	adder8bit
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/alu.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/top.sv {0 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module de2_115top
+** Error: (vlog-13069) C:/Users/Malheiros/Documents/cd2_labs/lab8/src/top.sv(48): near ".": syntax error, unexpected '.', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '*'.
+
+} {4.0 5.0} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/addsub.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/addsub.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/sim/datapath_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/sim/datapath_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/shifter.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/shifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/rom.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/rom.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/datapath.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/adder.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/comparator.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/comparator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/Malheiros/Documents/cd2_labs/lab8/src/ram.sv {1 {vlog -work work -sv -stats=none C:/Users/Malheiros/Documents/cd2_labs/lab8/src/ram.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram
+
+Top level modules:
+	ram
+
+} {} {}}

@@ -1,0 +1,26 @@
+`timescale 1ns / 1ps
+`default_nettype none
+
+module pc_counter #(
+	parameter Dbits = 32
+) (
+	input wire clk,
+	input wire reset,
+	input wire [Dbits-1:0] instr,
+	input wire [Dbits-1:0] bt,
+	input wire [1:0] pcsel,
+	output logic [Dbits-1:0] pc = 32'h0x00400000
+);
+
+	always @(posedge clk) begin
+		if(reset) 
+			pc = 32'h0x00400000;
+		else 
+			case(pcsel)
+				2'b00: pc = pc + 32'd4;
+				2'b01: pc = bt;
+				2'b10: pc = { pc[31:28], instr[25:0], 2'b00 };
+				2'b11: pc = pc;
+			endcase
+	end
+endmodule

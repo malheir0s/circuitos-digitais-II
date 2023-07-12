@@ -1,0 +1,184 @@
+C:/Users/Yuri/Documents/lab9/synchronous_R.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/synchronous_R.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module synchronous_R
+
+Top level modules:
+	synchronous_R
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/shifter.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/shifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/adder.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/adder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} C:/Users/Yuri/Documents/lab9/sim/tb/risc231_m1_full_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/sim/tb/risc231_m1_full_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module risc231_m1_full_tb
+
+Top level modules:
+	risc231_m1_full_tb
+
+} {} {}} C:/Users/Yuri/Desktop/mux2to1.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Desktop/mux2to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} C:/Users/Yuri/Documents/lab9/sim/tb/selfcheckController.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/sim/tb/selfcheckController.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module selfcheckController
+
+Top level modules:
+	selfcheckController
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/pc.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/pc.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/rom_module.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/rom_module.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom_module
+
+Top level modules:
+	rom_module
+
+} {} {}} C:/Users/Yuri/Desktop/mux3to1.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Desktop/mux3to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3to1
+
+Top level modules:
+	mux3to1
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/addsub.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/addsub.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module addsub
+
+Top level modules:
+	addsub
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/fulladder.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/fulladder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/logical.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/logical.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module logical
+
+Top level modules:
+	logical
+
+} {} {}} C:/Users/Yuri/Desktop/mux4to1.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Desktop/mux4to1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/risc231_m1.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/risc231_m1.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module risc231_m1
+
+Top level modules:
+	risc231_m1
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/ram_module.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/ram_module.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram_module
+
+Top level modules:
+	ram_module
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/mux3.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/mux3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux3
+
+Top level modules:
+	mux3
+
+} {} {}} C:/Users/Yuri/Documents/lab9/sim/tb/controller_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/sim/tb/controller_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller_tb
+-- Compiling module selfcheckController
+
+Top level modules:
+	controller_tb
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/datapath.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module datapath
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/Yuri/Downloads/shifter.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Downloads/shifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/sext_value.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/sext_value.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sext_value
+
+Top level modules:
+	sext_value
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/comparator.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/comparator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/Yuri/Documents/lab9/sim/tb/selfcheckFull.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/sim/tb/selfcheckFull.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module selfcheckFull
+
+Top level modules:
+	selfcheckFull
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/top.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/Users/Yuri/Downloads/comparator.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Downloads/comparator.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module comparator
+
+Top level modules:
+	comparator
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/register_file.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/register_file.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} C:/Users/Yuri/Documents/lab9/src/controller.sv {1 {vlog -work work -sv -stats=none C:/Users/Yuri/Documents/lab9/src/controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module controller
+
+Top level modules:
+	controller
+
+} {} {}}

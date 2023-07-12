@@ -1,0 +1,69 @@
+# Compile of vgadriver.sv was successful.
+vsim -gui work.vgadriver640x480_tb
+# vsim -gui work.vgadriver640x480_tb 
+# Start time: 03:37:40 on Oct 14,2022
+# Loading sv_std.std
+# Loading work.vgadriver640x480_tb
+# ** Error: (vsim-3033) Instantiation of 'vgadisplaydriver' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /vgadriver640x480_tb File: E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver640x480_tb.sv Line: 28
+#         Searched libraries:
+#             E:/UFRB/2022.1/CD2/labs/lab5/work
+# Loading work.selfcheckDriverVGA
+# Error loading design
+# End time: 03:37:41 on Oct 14,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of selfcheckDriver.sv was successful.
+# Compile of selfcheckDriverVGA.sv was successful.
+# Compile of selfcheckSync.sv was successful.
+# Compile of vgadriver10x4_tb.sv was successful.
+# Compile of vgadriver640x480_tb.sv was successful.
+# Compile of vgasynctimer10x4_tb.sv was successful.
+# Compile of de2_115top.sv failed with 1 errors.
+# Compile of display10x4.svh was successful.
+# Compile of display640x480.svh was successful.
+# Compile of vgadriver.sv was successful.
+# Compile of vgasynctimer.sv was successful.
+# Compile of xycounter.sv was successful.
+# 12 compiles, 1 failed with 1 error.
+vsim -gui work.vgadriver640x480_tb
+# vsim -gui work.vgadriver640x480_tb 
+# Start time: 03:38:34 on Oct 14,2022
+# Loading sv_std.std
+# Loading work.vgadriver640x480_tb
+# ** Error: (vsim-3033) Instantiation of 'vgadisplaydriver' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /vgadriver640x480_tb File: E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver640x480_tb.sv Line: 28
+#         Searched libraries:
+#             E:/UFRB/2022.1/CD2/labs/lab5/work
+# Loading work.selfcheckDriverVGA
+# Error loading design
+# End time: 03:38:35 on Oct 14,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+vsim -gui work.vgadriver10x4_tb
+# vsim -gui work.vgadriver10x4_tb 
+# Start time: 03:40:38 on Oct 14,2022
+# Loading sv_std.std
+# Loading work.vgadriver10x4_tb
+# Loading work.vgadriver
+# Loading work.vgasynctimer
+# Loading work.xycounter
+# Loading work.selfcheckDriver
+add wave -position insertpoint  \
+sim:/vgadriver10x4_tb/avideo \
+sim:/vgadriver10x4_tb/blue \
+sim:/vgadriver10x4_tb/clock \
+sim:/vgadriver10x4_tb/ERROR_blue \
+sim:/vgadriver10x4_tb/ERROR_green \
+sim:/vgadriver10x4_tb/ERROR_hsync \
+sim:/vgadriver10x4_tb/ERROR_red \
+sim:/vgadriver10x4_tb/ERROR_vsync \
+sim:/vgadriver10x4_tb/green \
+sim:/vgadriver10x4_tb/hsync \
+sim:/vgadriver10x4_tb/red \
+sim:/vgadriver10x4_tb/vsync
+run -all
+# ** Note: $finish    : E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver10x4_tb.sv(36)
+#    Time: 4 us  Iteration: 0  Instance: /vgadriver10x4_tb
+# 1
+# Break in Module vgadriver10x4_tb at E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver10x4_tb.sv line 36
+# End time: 03:42:49 on Oct 14,2022, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 1

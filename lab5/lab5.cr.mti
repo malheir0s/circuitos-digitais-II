@@ -1,0 +1,75 @@
+E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/selfcheckDriverVGA.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/selfcheckDriverVGA.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module selfcheckDriverVGA
+
+Top level modules:
+	selfcheckDriverVGA
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/selfcheckDriver.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/selfcheckDriver.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module selfcheckDriver
+
+Top level modules:
+	selfcheckDriver
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/selfcheckSync.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/selfcheckSync.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module selfcheckSync
+
+Top level modules:
+	selfcheckSync
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/src/vgasynctimer.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/src/vgasynctimer.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vgasynctimer
+
+Top level modules:
+	vgasynctimer
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgasynctimer10x4_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgasynctimer10x4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vgasynctimer10x4_tb
+
+Top level modules:
+	vgasynctimer10x4_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/src/xycounter.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/src/xycounter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module xycounter
+
+Top level modules:
+	xycounter
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/src/vgadriver.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/src/vgadriver.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vgadriver
+
+Top level modules:
+	vgadriver
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver10x4_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver10x4_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vgadriver10x4_tb
+
+Top level modules:
+	vgadriver10x4_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver640x480_tb.sv {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/sim/tb/vgadriver640x480_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module vgadriver640x480_tb
+
+Top level modules:
+	vgadriver640x480_tb
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/src/display10x4.svh {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/src/display10x4.svh
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/src/de2_115top.sv {0 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/src/de2_115top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module de2_115top
+** Error (suppressible): E:/UFRB/2022.1/CD2/labs/lab5/src/de2_115top.sv(15): (vlog-2892) Net type of 'CLOCK_50' was not explicitly declared.
+
+} {} {}} E:/UFRB/2022.1/CD2/labs/lab5/src/display640x480.svh {1 {vlog -work work -sv -stats=none E:/UFRB/2022.1/CD2/labs/lab5/src/display640x480.svh
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}
